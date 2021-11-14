@@ -19,7 +19,7 @@ void setup(int service, Wonder wonder) {
       );
     default:
       return sp.registerLazySingleton<WonderfulService>(
-            () => WonderfulServiceExample(wonder),
+        () => WonderfulServiceExample(wonder),
       );
   }
 }
