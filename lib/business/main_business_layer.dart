@@ -5,6 +5,7 @@ import '../service_provider.dart';
 
 void main() {
   final Wonder wonder = Wonder(id: 1, name: 'Real Wonder!');
+
   setup(2, wonder);
   sp.get<WonderfulService>().showWonderfulObject();
 }

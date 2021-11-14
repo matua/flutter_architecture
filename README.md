@@ -1,16 +1,14 @@
 # clean_architecture
 
-Clean Architecture Design
+Clean Architecture Design and simple code generator
 
-## Getting Started
+Clean Architecture reflects a basic directory structure of a FLutter App for 1 - 3
 
-This project is a starting point for a Flutter application.
+coders. For a bigger project it is recommended to use a module separated structure
+(1 module for each architecture layer);
 
-A few resources to get you started if this is your first Flutter project:
+Simple Code Generator shows how it is easy to generate a codebase with dart.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+To run the code generator run in terminal the following command:
+flutter pub run clean_architecture:os_info_generator
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

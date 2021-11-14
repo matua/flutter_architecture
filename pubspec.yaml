@@ -38,6 +38,7 @@ dependencies:
   freezed: ^0.15.1+1
   freezed_annotation: ^0.15.0
   dart_code_metrics: ^4.6.0
+  path: ^1.8.0
 
 dev_dependencies:
   flutter_test:
