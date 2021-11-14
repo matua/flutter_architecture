@@ -1,9 +1,11 @@
-include: package:lint/analysis_options.yaml
-
 analyzer:
   errors:
     missing_return: error
-  exclude: [ build/** ]
+    invalid_annotation_target: ignore
+  exclude:
+    - "build/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
   language:
     strict-inference: true
     strict-raw-types: true
